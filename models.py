@@ -9,5 +9,5 @@ class Contact(models.Model):
     date = models.DateField(auto_now_add=True,null= True)
 
     def __str__(self):
-        return self.name
+        return self.email
     
